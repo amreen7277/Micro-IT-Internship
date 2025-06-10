@@ -1,29 +1,52 @@
+# 🧠 Tic-Tac-Toe AI using Minimax Algorithm
 
-# Micro IT Internship Project - Microsoft AICTE
+This project is submitted as part of the **Microsoft AICTE Virtual Internship (AI Track)**. It demonstrates how AI decision-making can be applied to a game using the **Minimax algorithm** to create an unbeatable Tic-Tac-Toe bot.
 
-This project is a part of the **Microsoft AICTE Virtual Internship Program**. It demonstrates a basic **Face Detection and Recognition System** using Python and OpenCV.
+## 🎯 Objective
+
+Build an AI agent that can:
+- Play Tic-Tac-Toe against a human
+- Use the Minimax algorithm to choose optimal moves
+- Ensure that it never loses
 
 ## 🚀 Technologies Used
 
-- Python
-- OpenCV
-- Haar Cascade Classifier
-- Face Recognition Library
+- Python 3.8+
+- Tkinter (for GUI)
+- No external libraries required
 
-## 📁 Project Structure
+## 🛠️ Run Instructions
 
-- `index.html` - GitHub Pages website file
-- `face_detection.py` - Sample Python script for face detection
-- `README.md` - Project documentation
+### Command-line Version:
+```bash
+python tic_tac_toe.py
+```
 
-## 📄 Description
+### GUI Version:
+```bash
+python tic_tac_toe_gui.py
+```
 
-The system detects and recognizes faces using OpenCV's Haar Cascades. It can be used in real-world applications like attendance tracking or basic security.
+## 🎮 How It Works
 
-## 🌐 Live Demo
+The AI simulates all possible game outcomes using **Minimax**, assigns scores to each, and picks the move that leads to a win or draw. This ensures it always plays optimally.
 
-Visit the live site: [GitHub Pages](https://amreen7277.github.io/Micro-IT-Internship/)
+## 📁 Folder Structure
 
-## 📌 GitHub Repository
+```
+Tic-Tac-Toe-AI/
+├── tic_tac_toe.py          # Console version
+├── tic_tac_toe_gui.py      # GUI version
+└── README.md
+```
 
-[https://github.com/amreen7277/Micro-IT-Internship](https://github.com/amreen7277/Micro-IT-Internship)
+## 🙌 Acknowledgments
+
+Thanks to:
+- **Microsoft** and **AICTE** for this internship
+- Online resources and tutorials on Minimax
+
+## 📬 Contact
+
+- LinkedIn: [Your Profile]
+- Email: your.email@example.com
